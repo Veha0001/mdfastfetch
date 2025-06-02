@@ -1,0 +1,74 @@
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	"logo": {
+		"source": "~/.local/share/fastfetch/assets/md13.gif",
+		"type": "kitty-icat",
+		"height": 16,
+		"width": 32
+	},
+	"display": {
+		"color": {
+			"keys": "magenta"
+		},
+		"separator": "  ",
+		"key": {
+			"type": "icon"
+		}
+	},
+	"modules": [
+		"break",
+		{
+			"type": "title",
+			"format": "  {1} 󰞇 {2}",
+			"outputColor": "cyan"
+		},
+		{
+			"type": "os",
+			"format": "{name}"
+		},
+		{
+			"type": "kernel",
+			"format": "{2}"
+		},
+		{
+			"type": "packages",
+			"format": "{}"
+		},
+		"shell",
+		{
+			"type": "terminal",
+			"keyIcon": ""
+		},
+		"wm",
+		{
+			"type": "cursor",
+			"format": "{}"
+		},
+		"terminalfont",
+		"uptime",
+		{
+			"type": "datetime",
+			"format": "{1}-{3}-{11}"
+		},
+		{
+			"type": "media",
+			"format": "{}"
+		},
+		{
+			"type": "player",
+			"format": "{}"
+		},
+		{
+			"type": "colors",
+			"key": "Colors", // For printing icon
+			"block": {
+				"range": [
+					1,
+					6
+				]
+			}
+		},
+		"break",
+		"break"
+	]
+}
