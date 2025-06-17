@@ -1,6 +1,10 @@
 # mdfastfetch
 
-fastfetch logo from: [Muse Dash](https://musedash.peropero.net/loading/13.gif) using `kitty-icat`.
+My dot fastfetch. uses `kitty-icat`, and colorsheme `catppuccin`.
+Assets source from:
+
+- [Muse Dash](https://musedash.peropero.net/loading/13.gif)
+- Hyprland Official Discord Server/**hypr-chan**
 
 ## Install
 
@@ -16,7 +20,9 @@ cd mdfastfetch
 cp -r ./presets/ ~/.local/share/fastfetch/
 ```
 
-## Preview
+## Presets
 
-- md/boom
-  <img src="./preview.webp" />
+```fish
+fastfetch --config md/boom
+fastfetch --config hypr/chan
+```

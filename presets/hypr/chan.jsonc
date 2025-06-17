@@ -1,17 +1,18 @@
 {
 	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 	"logo": {
-		"source": "~/.local/share/fastfetch/presets/md/assets/md13.gif",
+		"source": "~/.local/share/fastfetch/presets/hypr/assets/vaxerski.png",
 		"type": "kitty-icat",
 		"height": 16,
-		"width": 28,
+		"width": 18,
 		"padding": {
 			"top": 2
 		}
 	},
 	"display": {
 		"color": {
-			"keys": "magenta"
+			"keys": "cyan",
+			"output": "white"
 		},
 		"separator": "  ",
 		"key": {
@@ -22,7 +23,7 @@
 		"break",
 		{
 			"type": "title",
-			"format": "  {1} 󰞇 {2}",
+			"format": "  {1}  {2}",
 			"outputColor": "cyan"
 		},
 		{
@@ -51,7 +52,7 @@
 		"uptime",
 		{
 			"type": "datetime",
-			"format": "{1}-{3}-{11} 󰓾 {weekday}"
+			"format": "{1}-{3}-{11}  {weekday}"
 		},
 		{
 			"type": "media",
