@@ -1,0 +1,18 @@
+presets/user
+presets/example
+presets/*.jsonc
+presets/*.json
+
+# Main fastfetch source
+build/
+.vs/
+.vscode/
+.cache/
+.kdev4/
+.DS_Store
+cscope.*
+tags
+fastfetch.kdev4
+*.user
+*.user.*
+*.swp
