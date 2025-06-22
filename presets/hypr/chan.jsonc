@@ -1,10 +1,10 @@
 {
 	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
 	"logo": {
-		"source": "~/.local/share/fastfetch/presets/hypr/assets/vaxerski.png",
+		"source": "~/.local/share/fastfetch/assets/vaxerski.png",
 		"type": "kitty-icat",
-		"height": 16,
-		"width": 18,
+		"height": 18,
+		"width": 21,
 		"padding": {
 			"top": 2
 		}
@@ -20,12 +20,17 @@
 		}
 	},
 	"modules": [
+		{
+			"type": "custom",
+			"format": "{#90}  {#31}  {#32}  {#33}  {#34}  {#35}  {#36}  {#37} "
+		},
 		"break",
 		{
 			"type": "title",
 			"format": "  {1}  {2}",
 			"outputColor": "cyan"
 		},
+		"break",
 		{
 			"type": "os",
 			"format": "{name}"
@@ -64,14 +69,8 @@
 		},
 		"break",
 		{
-			"type": "colors",
-			"key": "Colors", // For printing icon
-			"block": {
-				"range": [
-					1,
-					7
-				]
-			}
+			"type": "custom",
+			"format": "{#90}  {#31}  {#32}  {#33}  {#34}  {#35}  {#36}  {#37} "
 		},
 		"break",
 		"break"
