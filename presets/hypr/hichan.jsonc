@@ -1,0 +1,78 @@
+{
+	"$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+	"logo": {
+		"source": "~/.local/share/fastfetch/assets/hypr_chan.png",
+		"type": "kitty-icat",
+		"height": 18,
+		"width": 21,
+		"padding": {
+			"top": 1
+		}
+	},
+	"display": {
+		"color": {
+			"keys": "cyan",
+			"output": "white"
+		},
+		"separator": "  ",
+		"key": {
+			"type": "icon"
+		}
+	},
+	"modules": [
+		{
+			"type": "custom",
+			"format": "{#90}  {#31}  {#32}  {#33}  {#34}  {#35}  {#36}  {#37} "
+		},
+		"break",
+		{
+			"type": "title",
+			"format": "  {1}  {2}",
+			"outputColor": "cyan"
+		},
+		"break",
+		{
+			"type": "os",
+			"format": "{name}"
+		},
+		{
+			"type": "kernel",
+			"format": "{2}"
+		},
+		{
+			"type": "packages",
+			"format": "{}"
+		},
+		"shell",
+		{
+			"type": "terminal",
+			"keyIcon": ""
+		},
+		"wm",
+		{
+			"type": "cursor",
+			"format": "{}"
+		},
+		"terminalfont",
+		"uptime",
+		{
+			"type": "datetime",
+			"format": "{1}-{3}-{11}  {weekday}"
+		},
+		{
+			"type": "media",
+			"format": "{}"
+		},
+		{
+			"type": "player",
+			"format": "{}"
+		},
+		"break",
+		{
+			"type": "custom",
+			"format": "{#90}  {#31}  {#32}  {#33}  {#34}  {#35}  {#36}  {#37} "
+		},
+		"break",
+		"break"
+	]
+}

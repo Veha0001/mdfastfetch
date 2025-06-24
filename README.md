@@ -1,6 +1,6 @@
 # mdfastfetch
 
-My dot fastfetch. uses `kitty-icat`, and colorsheme `catppuccin`.
+My dot fastfetch.
 
 [Preview of Available Presets](https://github.com/Veha0001/mdfastfetch/wiki/Preview-of-Available-Presets)
 
@@ -10,11 +10,12 @@ My dot fastfetch. uses `kitty-icat`, and colorsheme `catppuccin`.
 git clone https://github.com/Veha0001/mdfastfetch ~/.local/share/fastfetch/
 ```
 
-or copy presets only:
+or copy presets and assets only:
 
 ```bash
 git clone https://github.com/Veha0001/mdfastfetch
 cd mdfastfetch
+cp -r ./assets/ ~/.local/share/fastfetch/
 cp -r ./presets/ ~/.local/share/fastfetch/
 ```
 
@@ -23,6 +24,5 @@ cp -r ./presets/ ~/.local/share/fastfetch/
 Example Usage:
 
 ```fish
-fastfetch --config md/boom
 fastfetch --config hypr/chan
 ```

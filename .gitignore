@@ -1,4 +1,5 @@
 presets/user
+presets/my*
 presets/example
 presets/*.jsonc
 presets/*.json
