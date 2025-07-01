@@ -3,10 +3,10 @@
 	"logo": {
 		"source": "~/.local/share/fastfetch/assets/hypr_chan.png",
 		"type": "kitty-icat",
-		"height": 18,
-		"width": 21,
+		"height": 21,
+		"width": 18,
 		"padding": {
-			"top": 1
+			"top": 2
 		}
 	},
 	"display": {
