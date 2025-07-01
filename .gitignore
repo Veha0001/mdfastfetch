@@ -3,6 +3,9 @@ presets/my*
 presets/example
 presets/*.jsonc
 presets/*.json
+presets/*/*.user.*
+media/*
+assets/*.user.*
 
 # Main fastfetch source
 build/
